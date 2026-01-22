@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+body {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  height: 100vh;
+}
+
+.WholeTemplate{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 22rem;
+    height: 30rem;
+
+}
+
+.search{
+    display: flex;
+}
+
+.fa-solid{
+    font-size: 1.75rem;
+}
+
+input{
+    border-radius: 2rem;
+    padding: 3%;
+}
+
+.thirdRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center; 
+  text-align: center;
+  font-size: 2rem;
+}
+
+#rainImage{
+    width: 8rem;
+    height: 8rem;
+    
+
+}
+.fourthRow {
+    display: flex;
+  align-items: center;     
+  justify-content: center; 
+  text-align: center;
+  margin-top: 2.75rem;
+}
+
+.humidityLogo img,
+.windLogo img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+
+.humidityLogo{
+    margin-right: 5rem;
+}
+
+.FirstRow, .weathericon{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
