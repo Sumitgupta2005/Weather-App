@@ -24,8 +24,5 @@ A simple, clean, and responsive **Weather Application** built using **HTML, CSS,
 
 ---
 
-## 📸 Screenshots
 
-
-![Weather App Screenshot](./images/screenshot.png)
 
