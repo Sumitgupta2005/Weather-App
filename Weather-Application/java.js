@@ -1,4 +1,4 @@
-const api_key = "Your-Api-Key-Here";
+const api_key = "778733942a9f0cd5abf5e44290c341a0";
 const api_url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const city = document.querySelector(".search input");
@@ -42,4 +42,5 @@ const checkWhether = async (city) => {
 button.addEventListener("click", () => {
     checkWhether(city.value);
 });
+
 
